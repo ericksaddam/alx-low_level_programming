@@ -2,16 +2,18 @@
 #include <main.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to prin
+ * main - Function main entry
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Program that prints _putchar, followed by a new line
+ *
+ * Return: always 0 (success)
  */
-nt main(void)
+
+int main(void)
 {
-	char text[9] = "_putchar";
+	char s[9] = "_putchar";
 	int i;
+
 	for (i = 0; i < 9; i++)
 	{
 		_putchar(text[i]);
